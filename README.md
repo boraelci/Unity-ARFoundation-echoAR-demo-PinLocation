@@ -25,7 +25,7 @@ Map pin location demo with Unity, ARFoundation, and echoAR.
 * Ensure that you selected **both** ```Map_Pin.bin``` and ```Map_Pin.gltf``` for a single object upload
 
 * This project utilizes [```Native Share for Android & iOS```](https://assetstore.unity.com/packages/tools/integration/native-share-for-android-ios-112731) from the Unity Asset Store
-* In your Unity project, go to ``Asset Store``` and download the asset above in its entirety
+* In your Unity project, go to ```Asset Store``` and download the asset above in its entirety
 
 ## Run
 * Save, build and run the project just as you would for [Unity-ARFoundation-echoAR](https://docs.echoar.xyz/unity/adding-ar-capabilities)
