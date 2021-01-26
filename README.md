@@ -41,13 +41,12 @@ When share button at the bottom-center of the screen is touched, user location i
 
 ## Screenshots
 ### Pin
-[Pin](Screenshots/Pin.png)
+![Pin](Screenshots/Pin.png)
 
 ### Share
-[Share](Screenshots/Share.png)
+![Share](Screenshots/Share.png)
 
-## Extra
-* User must enable Location Services in their device for the app to run properly
+## Attributions
 * "Map Pin" (https://skfb.ly/6SVFx) by Ilyas.King is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 ## Support
