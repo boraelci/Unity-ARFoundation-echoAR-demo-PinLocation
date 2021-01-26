@@ -24,21 +24,31 @@ Map pin location demo with Unity, ARFoundation, and echoAR.
 * Upload **both** files in the directory ```MapPinConsoleObject``` located in this repo
 * Ensure that you selected **both** ```Map_Pin.bin``` and ```Map_Pin.gltf``` for a single object upload
 
+* This project utilizes [```Native Share for Android & iOS```](https://assetstore.unity.com/packages/tools/integration/native-share-for-android-ios-112731) from the Unity Asset Store
+* In your Unity project, go to ``Asset Store``` and download the asset above in its entirety
+
 ## Run
 * Save, build and run the project just as you would for [Unity-ARFoundation-echoAR](https://docs.echoar.xyz/unity/adding-ar-capabilities)
 
 Note: These instructions assume that you are familiar with building and running the project for your desired platform (iOS, Android...) Please consult external resources if you are having difficulties in this process.
+
+* In Build Settings, after selecting iOS, ensure that you have selected the correct scene that is ```AR Foundation/Scenes/PinLocation/PinLocationAR```. If this option is not available, click ```Add Open Scenes``` and try again by looking at the end of the list.
 
 ## Usage
 When share button at the bottom-center of the screen is touched, user location is determined with [LocationService](https://docs.unity3d.com/ScriptReference/LocationService.html) in Unity. The location is sent within an HTTP POST request to echoAR’s API.
 * In the [echoAR console](https://console.echoar.xyz/#/pages/data), go to ```Data``` tab under Manage
 * The ```location``` should be seen in the ```Global database``` table on this page
 
-## Dependencies
-* This project utilizes [```Native Share for Android & iOS```](https://assetstore.unity.com/packages/tools/integration/native-share-for-android-ios-112731) from the Unity Asset Store
-* User must enable Location Services in their device for the app to run properly
-
 ## Screenshots
+### Pin
+[Pin](Screenshots/Pin.png)
+
+### Share
+[Share](Screenshots/Share.png)
+
+## Extra
+* User must enable Location Services in their device for the app to run properly
+* "Map Pin" (https://skfb.ly/6SVFx) by Ilyas.King is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 ## Support
 Feel free to reach out at [support@echoAR.xyz](mail:support@echoAR.xyz) or join our [support channel on Slack](https://join.slack.com/t/echoar/shared_invite/enQtNTg4NjI5NjM3OTc1LWU1M2M2MTNlNTM3NGY1YTUxYmY3ZDNjNTc3YjA5M2QyNGZiOTgzMjVmZWZmZmFjNGJjYTcxZjhhNzk3YjNhNjE)
